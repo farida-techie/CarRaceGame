@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/rootLayout"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/score"
+        android:textSize="28sp"
+        android:text="Score : 0"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Start"
+        app:backgroundTint="#FD397C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
